@@ -1,0 +1,90 @@
+/* general style features */
+
+body {
+	background-color: #fffff8;
+	margin: 40px auto;
+	max-width: 80%;
+	font-size: 18px;
+	color: #393939;
+}
+
+h1 {
+	text-align: center;
+	color: #333333;
+}
+
+h2 {
+	text-align: center;
+	color : #363636;
+}
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/* the sidebar */
+
+.sidebar {
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	background-color: #ccae8f;
+}
+
+.sidebar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fffff8;
+	display: block;
+}
+
+.sidebar button {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fffff8;
+	display: block;
+}
+
+.sidebar div:hover {
+	background-color: #618059;
+}
+
+/* the corona notice */
+
+.corona {
+	background-color: #73bf60;
+	color: #000000;
+}
+
+.corona strong {
+	font-size: 20px;
+}
+
+.corona a {
+	color: #222222;
+}
+
+/* button styling */
+
+button {
+	background: rgba(100, 100, 100, 0.0);
+	color: #fffff8;
+	border: 0px;
+}
+
+.open_button {
+	color: #333333;
+	position: fixed;
+	top: 10;
+	left: 0;
+	font-size: 35px;
+}
