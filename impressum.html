@@ -6,10 +6,31 @@
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
-											<h1 class="entry-title">Impressum</h1>
+		<button onclick="w3_open()" class="open_button" id="open_button" style="position: ">☰</button>
 
-					<div class="entry-content">
-						<div class="pf-content"><p><strong>Angaben gemäß § 5 TMG:<br />
+		<div class="sidebar" style="display: none" id="sidebar">
+			<div>
+				<button onclick="w3_close()">Schließen</button>
+			</div>
+			<div>
+				<a href="index.html">Home</a>
+			</div>
+			<div>
+				<a href="gemeindeleben.html">Gemeindeleben</a>
+			</div>
+			<div>
+				<a href="mediathek.html">Mediathek</a>
+			</div>
+			<div>
+				<a href="termine.html">Termine</a>
+			</div>
+			<div>
+				<a href="kontakt.html">Kontakt</a>
+			</div>
+		</div>
+
+		<h1>Impressum</h1>
+		<div class="pf-content"><p>Angaben gemäß § 5 TMG:<br />
 </strong><br />
 <strong>Anschrift:<br />
 </strong>Freikirchliche Gemeinde in Morsbach e.V.<br />
@@ -39,7 +60,9 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
 <p>Quelle: e-recht24.de</p>
 <p>&nbsp;</p>
-<p><span style="font-size: small; color: #000000;">admin@fgim.de<br />
-26.04.2018 KNW</span></p>
+		<hr />
+		<a href="index.html">Freikirchliche Gemeinde in Morsbach</a> | <a href="datenschutz.html">Datenschutzerklärung</a>
+		<script src="button.js">
+		</script>
 </body>
 </html>
