@@ -94,7 +94,6 @@ ol, li {
 }
 
 .carousel__slide1 {
-	height: 250px;
 	background-size: cover;
 	position: relative;
 	flex: 0 0 100%;
@@ -107,7 +106,6 @@ ol, li {
 }
 
 .carousel__slide2 {
-	height: 250px;
 	background-size: cover;
 	position: relative;
 	flex: 0 0 100%;
