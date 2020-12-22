@@ -1,6 +1,8 @@
 /* general style features */
 
 body {
+	background-image: url(pictures/design1.jpg);
+	background-repeat: no-repeat;
 	background-color: #fffff8;
 	margin: 40px auto;
 	max-width: 80%;
@@ -10,7 +12,7 @@ body {
 
 h1 {
 	text-align: center;
-	color: #333333;
+	color: #fffff8;
 }
 
 h2 {
@@ -87,4 +89,46 @@ button {
 	top: 10;
 	left: 0;
 	font-size: 35px;
+}
+
+/* text überschriften */
+
+.text {
+	background: rgba(256, 256, 249, 0.5);
+}
+
+.text p {
+	max-width: 95%;
+	padding-left: 2.5%;
+}
+
+.text h4 {
+	padding-left: 2.5%;
+}
+
+.text h3 {
+	padding-top: 1%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.text h3:before,
+.text h3:after {
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.text h3:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+.text h3:after {
+	left: 0.5em;
+	margin-right: -50%;
 }
