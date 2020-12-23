@@ -79,6 +79,7 @@ ol, li {
 	padding-top: 25%;
 	filter: drop-shadow(0 0 10px #0003);
 	perspective: 100px;
+	height: 400px;
 }
 
 .carousel__viewport {
@@ -98,7 +99,7 @@ ol, li {
 	position: relative;
 	flex: 0 0 100%;
 	width: 100%;
-	background-image: url(pictures/Ich-bin-bei-euch-webslide-GODLINE_CC-BY-NC.jpg);
+	background-image: url(pictures/webslide-wunder.jpg);
 	background-repeat: no-repeat;
 	background-color: #888888;
 	background-position: center;
@@ -110,7 +111,7 @@ ol, li {
 	position: relative;
 	flex: 0 0 100%;
 	width: 100%;
-	background-image: url(pictures/waschen-webslide-GODLINE_CC-BY-NC.jpg);
+	background-image: url(pictures/webslide-gnade.jpg);
 	background-repeat: no-repeat;
 	background-color: #888888;
 	background-position: center;
